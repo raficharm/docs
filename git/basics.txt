@@ -1,0 +1,61 @@
+git clone <repo-name>
+git init /initialize git repository
+git status - Check which files are tracked
+
+Here are some key commands for staging:
+
+git add <file> - Stage a file
+git add --all or git add -A - Stage all changes
+git status - See what is staged
+git restore --staged <file> - Unstage a file
+
+Here are some key commands for commits:
+
+git commit -m "message" - Commit staged changes with a message
+git commit -a -m "message" - Commit all tracked changes (skip staging)
+git log - See commit history
+
+ just type git commit (no -m), your default editor will open so you can write a detailed, multi-line message:
+
+
+ Key Commands for Tagging
+git tag <tagname> - Create a lightweight tag
+git tag -a <tagname> -m "message" - Create an annotated tag
+git tag <tagname> <commit-hash> - Tag a specific commit
+git tag - List tags
+git show <tagname> - Show tag details
+
+Delete tags
+git tag -d v1.0
+
+
+ move a tag to a different commit and update the remote, use --force:
+
+ Key Commands for Stashing
+git stash - Stash your changes
+git stash push -m "message" - Stash with a message
+git stash list - List all stashes
+git stash branch <branchname> - Create a branch from a stash
+
+clear all stashes
+git stash clear
+
+Key Commands for Viewing History
+git log - Show full commit history
+git log --oneline - Show a summary of commits
+git show <commit> - Show details of a specific commit
+git diff - See unstaged changes
+git diff --staged - See staged changes
+
+Key Commands for Getting Help
+git help <command> - See the manual page for a command
+git <command> --help - See help for a command (same as above)
+git <command> -h - See a quick summary of options
+git help --all - List all possible Git commands
+git help -g - List guides and concepts
+
+
+i avioded branches and merge now... i will learn it further
+
+
+
