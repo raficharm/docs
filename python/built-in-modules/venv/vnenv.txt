@@ -1,0 +1,26 @@
+Start:
+python -m venv myfirstproject
+
+file structure:
+  myfirstproject:
+ - Include
+  -Lib
+  -Scripts
+  -.gitignore
+  -pyvenv.cfg
+
+  Activate Virtual Environment:
+  myfirstproject\Scripts\activate
+  source myfirstproject/bin/activate [Linux]
+
+install a package it will only be installed in the virtual Environment
+# pip install numpy
+
+i can locate python file anywhere in the system . but i have to ensure the virtual env is activated.
+
+Deactive Virtual Environment:
+deactive
+
+Delete Virtual Environment:
+rmdir /s /q myfirstproject
+rm -rf myfirstproject [Linux]
