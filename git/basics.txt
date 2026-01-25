@@ -1,4 +1,5 @@
 git clone <repo-name>
+git pull // used to fetch and download content from remote
 git init /initialize git repository
 git status - Check which files are tracked
 
