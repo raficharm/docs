@@ -1,0 +1,30 @@
+import pyautogui as pag 
+
+// Mouse 
+pag.position()  // returns mouse position x, y
+pag.size()  // returns screen resolution width, height
+pag.onScreen(x,y) // True if mouse on x,y
+pag.PAUSE = time // delays pyautogui call
+pag.FAILSAFE = TRUE // abort programme when mouse goes to upper left 
+pag.moveTo(x,y,t) // Move the mouse x,y within t second
+pag.moveRel(x,y,t) // Move the mouse x,y within t second relative position
+pag.dragTo(x,y,t) // move mouse to x,y in t sec pressing left 
+pag.dragRel(x,y,t) // move mouse to x,y in t sec pressing left relative pos 
+pag.click(x,y,clicks,interval=,button='') // letf , right, middle
+example : pag.click(x=90,y=67,clicks=5,interval=2,button='left')
+pag.rigtClick(x,y)
+pag.middleClick(x,y)
+pag.doubleClick(x,y)
+pag.tripleClick(x,y)
+pag.scroll(amount of scroll in number, x,y)
+pag.mouseDown(x,y, button='left')
+pag.mouseUp(x,y, button ='left')
+
+
+
+
+
+
+
+
+
